@@ -13,15 +13,23 @@ new Swiper('.swiper-container', {
     delay: 2500,
     disableOnInteraction: false,
   },
-
   breakpoints: {
     400: {
       slidesPerView: 1,
       spaceBetween: 20,
+      centeredSlides: true,
+
+    
     },
     768: {
       slidesPerView: 2,
       spaceBetween: 40,
+      centeredSlides: true,
+    },
+    1200: {
+      slidesPerView: 3,
+      spaceBetween: 40,
+      centeredSlides: true,
     },
   },
 });
