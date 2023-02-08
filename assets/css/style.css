@@ -1536,6 +1536,16 @@ section {
   content: none !important;
 }
 
+
+/* @media (max-width: 768px) {
+  .swiper-button-next {
+    display: none !important;
+  }
+  .swiper-button-prev {
+    display: none !important;
+  }
+} */
+
 .text-logo {
   font-size: 10px;
 }

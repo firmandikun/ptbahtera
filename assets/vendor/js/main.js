@@ -14,12 +14,16 @@ new Swiper('.swiper-container', {
     disableOnInteraction: false,
   },
 
-  // optional si li kalau semisal kamu mau pakai atau engga!
-
-  // pagination: {
-  //   el: '.swiper-pagination',
-  //   clickable: true,
-  // },
+  breakpoints: {
+    400: {
+      slidesPerView: 1,
+      spaceBetween: 20,
+    },
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 40,
+    },
+  },
 });
 /**
    * Initiate Pure Counter 
