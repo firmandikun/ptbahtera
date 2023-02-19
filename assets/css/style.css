@@ -12,6 +12,7 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
   background-color: #fefefe;
+  overflow-x: hidden;
 }
 
 a {
@@ -617,6 +618,12 @@ section {
   color: #0F3460;
 }
 
+.icon-box i {
+  font-size: 40px;
+  float: left;
+  color: #0F3460;
+}
+
 .features .icon-box p {
   font-size: 15px;
   color: #848484;
@@ -1123,7 +1130,13 @@ section {
 
 .team .member .member-img {
   position: relative;
-  overflow: hidden;
+    overflow: hidden;
+    height: 400px;
+    object-fit: cover;
+}
+
+.card-swiper {
+  cursor: pointer;
 }
 
 .team .member .social {
@@ -1551,6 +1564,10 @@ section {
 }
 
 .bg-indigo {
+  background-color: #16213E;
+  color: #fefefe;
+}
+.bg-indigo:hover {
   background-color: #16213E;
   color: #fefefe;
 }
